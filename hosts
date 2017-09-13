@@ -1,2 +1,12 @@
 [noisebridge-net]
 m3.noisebridge.net
+
+[doorbell]
+pegasus.noisebridge.net
+
+[power]
+entropi.noisebridge.net
+
+[2169:children]
+doorbell
+power

@@ -37,3 +37,9 @@
     certbot_certs:
       m3.noisebridge.net:
         - m3.noisebridge.net
+
+- name: power
+  hosts: power
+  tags: [power]
+  roles:
+    - smartpi
