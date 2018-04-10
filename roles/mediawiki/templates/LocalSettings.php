@@ -195,3 +195,7 @@ $wgAutopromote = array(
 		APCOND_EMAILCONFIRMED
 	),
 );
+
+# maybe allow bureaucrats and sysops to add autoconfirmed
+wgAddGroups['bureaucrat'][] = 'autoconfirmed';
+wgAddGroups['sysop'][] = 'autoconfirmed';
